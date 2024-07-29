@@ -150,18 +150,18 @@ void init_glyphs()
 
 	make_glyph(GLIDER, 3, 3);
 	/*  It's a glider   */set_alive(GLIDER,1,0);
-						                        set_alive(GLIDER,2,1);
-    set_alive(GLIDER,0,2);set_alive(GLIDER,1,2);set_alive(GLIDER,2,2);
+						                          set_alive(GLIDER,2,1);
+    	set_alive(GLIDER,0,2);set_alive(GLIDER,1,2);set_alive(GLIDER,2,2);
 
 	make_glyph(LWSS, 5, 4);
-	                    set_alive(LWSS,1,0);		            		            set_alive(LWSS,4,0);
+	                    set_alive(LWSS,1,0);		            		set_alive(LWSS,4,0);
 	set_alive(LWSS,0,1);
-	set_alive(LWSS,0,2);		            		            		            set_alive(LWSS,4,2);
+	set_alive(LWSS,0,2);		            		            		set_alive(LWSS,4,2);
 	set_alive(LWSS,0,3);set_alive(LWSS,1,3);set_alive(LWSS,2,3);set_alive(LWSS,3,3);
 
 	make_glyph(MWSS, 6, 5);
 	                                                                  set_alive(MWSS, 3, 0);
-						  set_alive(MWSS, 1, 1);					                                              set_alive(MWSS, 5, 1);
+						  set_alive(MWSS, 1, 1);		                              set_alive(MWSS, 5, 1);
 	set_alive(MWSS, 0, 2);
 	set_alive(MWSS, 0, 3);                                                                                        set_alive(MWSS, 5, 3);
 	set_alive(MWSS, 0, 4);set_alive(MWSS, 1, 4);set_alive(MWSS, 2, 4);set_alive(MWSS, 3, 4);set_alive(MWSS, 4, 4);
